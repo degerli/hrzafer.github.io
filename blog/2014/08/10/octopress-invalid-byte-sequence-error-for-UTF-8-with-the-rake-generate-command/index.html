@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Harun Reşit Zafer</title>
+  <title>Octopress 'Invalid Byte Sequence in UTF-8' Error With the Rake Generate Command - Harun Reşit Zafer</title>
   <meta name="author" content="Harun Reşit Zafer">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hrzafer.github.io">
+  <link rel="canonical" href="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Harun Reşit Zafer" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/">Octopress &#8216;Invalid Byte Sequence in UTF-8&#8217; Error With the Rake Generate Command</a></h1>
+      <h1 class="entry-title">Octopress 'Invalid Byte Sequence in UTF-8' Error With the Rake Generate Command</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>This is my first post on this blog. Since it was going to be mostly about my work on Github, I decided to publish it on GitHub and naturally this made me choose <a href="http://octopress.org">Octopress</a>. After <a href="http://www.techelex.org/setup-octopress-on-windows7/">installing and deploying octopress</a> successfully, I just wanted to edit _config.yml to change the author and title properties. As my name (Harun Reşit Zafer) has the non-ascii <code>ş</code> in it when I try to run the <code>rake generate</code> command, I got the <code>invalid byte sequence in UTF-8</code> error.</p>
+<div class="entry-content"><p>This is my first post on this blog. Since it was going to be mostly about my work on Github, I decided to publish it on GitHub and naturally this made me choose <a href="http://octopress.org">Octopress</a>. After <a href="http://www.techelex.org/setup-octopress-on-windows7/">installing and deploying octopress</a> successfully, I just wanted to edit _config.yml to change the author and title properties. As my name (Harun Reşit Zafer) has the non-ascii <code>ş</code> in it when I try to run the <code>rake generate</code> command, I got the <code>invalid byte sequence in UTF-8</code> error.</p>
 
 <p>After some googling I found several pages that all suggest creating some system (or environment on Windows) variables called LANG, LC_ALL and LC_CTYPE and set their value to en_US.UTF-8. However it didn&rsquo;t help me. Then I also realized that either on Linux or Windows creating such system variables hadn&rsquo;t helped some other users too.</p>
 
@@ -104,18 +101,57 @@
 
 <p>I hope my first post helps those having the same issue. Please let me know if this works for you too.</p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Harun Reşit Zafer</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2014-08-10T15:15:00+03:00" pubdate data-updated="true">Aug 10<sup>th</sup>, 2014</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/blog/categories/github/'>github</a>, <a class='category' href='/blog/categories/octopres/'>octopres,</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/" data-via="" data-counturl="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -123,7 +159,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/">Octopress &#8216;Invalid Byte Sequence in UTF-8&#8217; Error With the Rake Generate Command</a>
+        <a href="/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/">Octopress 'Invalid Byte Sequence in UTF-8' Error With the Rake Generate Command</a>
       </li>
     
   </ul>
@@ -132,7 +168,7 @@
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/hrzafer">@hrzafer</a> on GitHub
@@ -164,6 +200,7 @@
 
   
 </aside>
+
 
     </div>
   </div>
