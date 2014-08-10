@@ -4,7 +4,7 @@
   <title><![CDATA[Harun Reşit Zafer]]></title>
   <link href="http://hrzafer.github.io/atom.xml" rel="self"/>
   <link href="http://hrzafer.github.io/"/>
-  <updated>2014-08-10T15:10:38+03:00</updated>
+  <updated>2014-08-10T15:16:05+03:00</updated>
   <id>http://hrzafer.github.io/</id>
   <author>
     <name><![CDATA[Harun Reşit Zafer]]></name>
@@ -12,5 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://hrzafer.github.io/blog/2014/08/10/test/"/>
+    <updated>2014-08-10T00:00:00+03:00</updated>
+    <id>http://hrzafer.github.io/blog/2014/08/10/test</id>
+    <content type="html"><![CDATA[<p>﻿&mdash;
+layout: post
+title: &ldquo;test&rdquo;
+date: 2014-08-10 15:15:00 +0300
+comments: true</p>
+
+<h2>categories: </h2>
+
+<p>Bu bir denemedir. çİığöşü</p>
+]]></content>
+  </entry>
   
 </feed>
