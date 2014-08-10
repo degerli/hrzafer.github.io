@@ -94,13 +94,13 @@
   </header>
 
 
-  <div class="entry-content"><p>This is my first post on this blog. Since it was going to be mostly about my work on Github, I decided to publish it on GitHub and naturally this made me choose <a href="http://octopress.org">Octopress</a>. After <a href="http://www.techelex.org/setup-octopress-on-windows7/">installing and deploying octopress</a> successfully, I just wanted to edit _config.yml to change the author and title properties. As my name (Harun Reşit Zafer) has the non-ascii <code>ş</code> in it when I try to run the <code>rake generate</code> command, I got the <code>invalid byte sequence in UTF-8</code> error.</p>
+  <div class="entry-content"><p>This is my first post on this blog. Since it was going to be mostly about my work on Github, I decided to publish it on GitHub and naturally this made me choose <a href="http://octopress.org">Octopress</a>. After <a href="http://www.techelex.org/setup-octopress-on-windows7/">installing and deploying octopress</a> successfully, I just wanted to edit <code>_config.yml</code> to set my name for the <code>author</code> and <code>title</code> properties. As my name (Harun Reşit Zafer) has the non-ascii <code>ş</code> in it when I try to run the <code>rake generate</code> command, I got the <code>invalid byte sequence in UTF-8</code> error.</p>
 
-<p>After some googling I found several pages that all suggest creating some system (or environment on Windows) variables called LANG, LC_ALL and LC_CTYPE and set their value to en_US.UTF-8. However it didn&rsquo;t help me. Then I also realized that either on Linux or Windows creating such system variables hadn&rsquo;t helped some other users too.</p>
+<p>After some googling I found several pages that all suggest creating some system (or environment on Windows) variables called <code>LANG</code>, <code>LC_ALL</code> and <code>LC_CTYPE</code> and set their value to <code>en_US.UTF-8</code>. However it didn&rsquo;t help me. Then I also realized that either on Linux or Windows creating such system variables hadn&rsquo;t helped some other users too.</p>
 
-<p>Then I just open the <code>_config.yml</code> with notepad++, changed the encoding to <code>UTF-8 without BOM</code>, fixed corrupted non-ascii characters and saved the file. I got no error. This also works for the post files (the ones with <code>.markdown</code> extensions in <code>source/_posts</code> folder).</p>
+<p>Then I just open the <code>_config.yml</code> with Notepad++, changed the encoding to <code>UTF-8 without BOM</code>. As I changed the encoding, the <code>ş</code> character corrupted. I fixed it and saved the file. I got no error when I run the <code>rake generate</code> command this time.</p>
 
-<p>So just change the file&rsquo;s encoding <code>UTF-8 without BOM</code> before inserting any non-ascii characters. There is no need for the environment variables in my case.</p>
+<p>This solution also works for the post files (the ones with <code>.markdown</code> extensions in <code>source/_posts</code> folder). In short, just change the file&rsquo;s encoding <code>UTF-8 without BOM</code> before inserting any non-ascii characters. There is no need for the environment variables in my case.</p>
 
 <p>I hope my first post helps those having the same issue. Please let me know if this works for you too.</p>
 </div>
