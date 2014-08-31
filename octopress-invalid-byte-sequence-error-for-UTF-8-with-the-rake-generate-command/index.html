@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command">
+  <link rel="canonical" href="http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Harun Reşit Zafer" type="application/atom+xml">
@@ -98,7 +98,7 @@
 
 <p>After some googling I found several pages that all suggest creating some system (or environment on Windows) variables called <code>LANG</code>, <code>LC_ALL</code> and <code>LC_CTYPE</code> and set their value to <code>en_US.UTF-8</code>. However it didn&rsquo;t help me. Then I also realized that either on Linux or Windows creating such system variables hadn&rsquo;t helped some other users too.</p>
 
-<p>Then I just open the <code>_config.yml</code> with Notepad++, changed the encoding to <code>UTF-8 without BOM</code>. As I changed the encoding, the <code>ş</code> character corrupted. I fixed it and saved the file. I got no error when I run the <code>rake generate</code> command this time.</p>
+<p>Then I just opened the <code>_config.yml</code> with Notepad++, changed the encoding to <code>UTF-8 without BOM</code>. As I changed the encoding, the <code>ş</code> character corrupted. I fixed it and saved the file. I got no error when I run the <code>rake generate</code> command this time.</p>
 
 <p>This solution also works for the post files (the ones with <code>.markdown</code> extensions in <code>source/_posts</code> folder). In short, just change the file&rsquo;s encoding <code>UTF-8 without BOM</code> before inserting any non-ascii characters. There is no need for the environment variables in my case.</p>
 
@@ -139,7 +139,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/" data-via="" data-counturl="http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command" data-via="" data-counturl="http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command" >Tweet</a>
   
   
   
@@ -168,7 +168,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/">Octopress 'Invalid Byte Sequence in UTF-8' Error With the Rake Generate Command</a>
+        <a href="/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command">Octopress 'Invalid Byte Sequence in UTF-8' Error With the Rake Generate Command</a>
       </li>
     
   </ul>
@@ -226,8 +226,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/';
-        var disqus_url = 'http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/';
+        var disqus_identifier = 'http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command';
+        var disqus_url = 'http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command';
         var disqus_script = 'embed.js';
       
     (function () {

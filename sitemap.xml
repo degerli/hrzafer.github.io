@@ -3,7 +3,7 @@
   
   
   <url>
-    <loc>http://hrzafer.github.io/blog/2014/08/10/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command/</loc>
+    <loc>http://hrzafer.github.io/octopress-invalid-byte-sequence-error-for-UTF-8-with-the-rake-generate-command</loc>
     <lastmod>2014-08-10T15:15:00+03:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -11,14 +11,14 @@
   
   <url>
     <loc>http://hrzafer.github.io/blog/archives/</loc>
-    <lastmod>2014-08-31T18:11:44+03:00</lastmod>
+    <lastmod>2014-08-31T20:03:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://hrzafer.github.io/</loc>
-    <lastmod>2014-08-31T18:11:44+03:00</lastmod>
+    <lastmod>2014-08-31T20:03:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
